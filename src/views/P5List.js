@@ -39,6 +39,9 @@ export default {
     getResistCss(elem) {
       return `resist resist-${elem}`;
     },
+    handleFilterChange(e) {
+      this.filterText = e.target.value;
+    },
     onShowSizeChange(current, pageSize) {
       this.currentPage = current;
       this.pageSize = pageSize;
@@ -104,7 +107,7 @@ export default {
     filter(text) {
       this.currentPage = 1;
       const filteredResult = this.filterByFields(text.toLowerCase());
-      this.list = this.paginate(filteredResult);
+      this.list = filteredResult;
       this.totalRecords = filteredResult.length;
     },
     filterByFields(text) {
