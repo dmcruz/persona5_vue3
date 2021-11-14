@@ -105,49 +105,49 @@ img.ico-elem-mini {
   background-position: center;
 }
 .ico-elem-almighty {
-  background-image: url("/persona5_vue2/images/icons/almighty.png");
+  background-image: url("/persona5_vue3/images/icons/almighty.png");
 }
 .ico-elem-ailment {
-  background-image: url("/persona5_vue2/images/icons/ailment.png");
+  background-image: url("/persona5_vue3/images/icons/ailment.png");
 }
 .ico-elem-bless {
-  background-image: url("/persona5_vue2/images/icons/bless.png");
+  background-image: url("/persona5_vue3/images/icons/bless.png");
 }
 .ico-elem-curse {
-  background-image: url("/persona5_vue2/images/icons/curse.png");
+  background-image: url("/persona5_vue3/images/icons/curse.png");
 }
 .ico-elem-elec {
-  background-image: url("/persona5_vue2/images/icons/electric.png");
+  background-image: url("/persona5_vue3/images/icons/electric.png");
 }
 .ico-elem-fire {
-  background-image: url("/persona5_vue2/images/icons/fire.png");
+  background-image: url("/persona5_vue3/images/icons/fire.png");
 }
 .ico-elem-gun {
-  background-image: url("/persona5_vue2/images/icons/gun.png");
+  background-image: url("/persona5_vue3/images/icons/gun.png");
 }
 .ico-elem-healing {
-  background-image: url("/persona5_vue2/images/icons/healing.png");
+  background-image: url("/persona5_vue3/images/icons/healing.png");
 }
 .ico-elem-ice {
-  background-image: url("/persona5_vue2/images/icons/ice.png");
+  background-image: url("/persona5_vue3/images/icons/ice.png");
 }
 .ico-elem-nuke {
-  background-image: url("/persona5_vue2/images/icons/nuclear.png");
+  background-image: url("/persona5_vue3/images/icons/nuclear.png");
 }
 .ico-elem-passive {
-  background-image: url("/persona5_vue2/images/icons/passive.png");
+  background-image: url("/persona5_vue3/images/icons/passive.png");
 }
 .ico-elem-phys {
-  background-image: url("/persona5_vue2/images/icons/phys.png");
+  background-image: url("/persona5_vue3/images/icons/phys.png");
 }
 .ico-elem-psy {
-  background-image: url("/persona5_vue2/images/icons/psy.png");
+  background-image: url("/persona5_vue3/images/icons/psy.png");
 }
 .ico-elem-support {
-  background-image: url("/persona5_vue2/images/icons/support.png");
+  background-image: url("/persona5_vue3/images/icons/support.png");
 }
 .ico-elem-wind {
-  background-image: url("/persona5_vue2/images/icons/wind.png");
+  background-image: url("/persona5_vue3/images/icons/wind.png");
 }
 
 .resist {
