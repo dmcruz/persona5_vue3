@@ -27,7 +27,9 @@
 
     <br /><br />
     Origins:
-    <li :v-for="item in getOrigins()">{{ item }}</li>
+    <ul>
+      <li v-for="(item) in items" :key="item">{{ item }}</li>
+    </ul>
   </div>
 
   <br /><br />
@@ -149,10 +151,12 @@ export default {
       { text: 'Nuclear', icon: 'ico-elem-mini ico-elem-nuke' },
       { text: 'Bless', icon: 'ico-elem-mini ico-elem-bless' },
       { text: 'Curse', icon: 'ico-elem-mini ico-elem-curse' }],
+    items: [],
   }),
   beforeMount() {
     this.persona = this.getPersonaDetails();
     this.lore = this.getLore();
+    this.items.push(...this.getOrigins());
   },
   methods: {
     getLore() {
